@@ -48,12 +48,12 @@
   };
 
   lsp = {
-    servers = {
-      nixd.enable = true;
-      hls.enable = true;
-      gopls.enable = true;
-      rust_analyzer.enable = true;
-    };
+    # servers = {
+    #   nixd.enable = true;
+    #   hls.enable = true;
+    #   gopls.enable = true;
+    #   rust_analyzer.enable = true;
+    # };
 
     inlayHints.enable = false;
 

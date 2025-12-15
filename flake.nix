@@ -20,6 +20,7 @@
       };
       nvim = nixvim'.makeNixvimWithModule nixvimModule;
     in {
+      nixvimModules.default = import ./config.nix;
       packages.${system} = {
         inherit nvim;
         default = nvim;
