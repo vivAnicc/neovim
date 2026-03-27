@@ -4,6 +4,8 @@
   plugins = {
     lz-n.enable = true;
 
+    image.enable = true;
+
     oil = {
       enable = true;
       settings = {
