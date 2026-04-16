@@ -27,7 +27,6 @@
 
     fzf-lua = {
       enable = true;
-      # package = pkgs.vimPlugins.fzf-lua;
       profile = "default";
       settings.files = {
         git_icons = false;
@@ -50,13 +49,6 @@
   };
 
   lsp = {
-    # servers = {
-    #   nixd.enable = true;
-    #   hls.enable = true;
-    #   gopls.enable = true;
-    #   rust_analyzer.enable = true;
-    # };
-
     inlayHints.enable = false;
 
     onAttach = #lua
@@ -98,7 +90,7 @@
   autoCmd = [
     {
       event = ["BufEnter"];
-      command = "set tabstop=2";
+      command = "set tabstop=8";
     }
     {
       event = ["BufEnter"];
@@ -110,15 +102,15 @@
     }
     {
       event = ["BufEnter"];
-      command = "set expandtab";
+      command = "set noexpandtab";
     }
   ];
 
   opts = {
-    tabstop = 2;
+    tabstop = 8;
     softtabstop = 2;
     shiftwidth = 2;
-    expandtab = true;
+    expandtab = false;
 
     ignorecase = true;
     smartcase = true;
