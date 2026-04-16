@@ -153,11 +153,6 @@
   };
 
   keymaps = [
-    # {
-    # 	mode = "n";
-    # 	key = ":";
-    # 	action = "q:i";
-    # }
     {
       mode = "n";
       key = "<leader>e";
@@ -177,16 +172,6 @@
       mode = ["n" "v" "x"];
       key = "<leader>P";
       action = "\"+P";
-    }
-    {
-      mode = "n";
-      key = "<leader>o";
-      action = "moo<Esc>`o";
-    }
-    {
-      mode = "n";
-      key = "<leader>O";
-      action = "moO<Esc>`o";
     }
     {
       mode = "n";
