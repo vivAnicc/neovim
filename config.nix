@@ -160,18 +160,8 @@
     }
     {
       mode = ["n" "v" "x"];
-      key = "<leader>y";
-      action = "\"+y";
-    }
-    {
-      mode = ["n" "v" "x"];
-      key = "<leader>p";
-      action = "\"+p";
-    }
-    {
-      mode = ["n" "v" "x"];
-      key = "<leader>P";
-      action = "\"+P";
+      key = "<leader>\"";
+      action = "\"+";
     }
     {
       mode = "n";
