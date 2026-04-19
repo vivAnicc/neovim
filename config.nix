@@ -42,8 +42,7 @@
         "<leader>sg" = "grep";
         "<leader>sa" = "lsp_code_actions";
         "<leader>ss" = "lsp_document_symbols";
-        "<leader>sdd" = "diagnostics_document";
-        "<leader>sdw" = "diagnostics_workspace";
+        "<leader>sd" = "diagnostics_workspace";
       };
     };
   };
